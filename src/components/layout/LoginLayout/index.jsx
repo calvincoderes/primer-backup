@@ -3,14 +3,17 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Row, Col } from 'antd'
 
+import coverImage from '../../../assets/images/login-cover.png'
+
 import ViewContainer from './container'
+
 
 const Styled = styled.div`
   background: linear-gradient(269.38deg, #f4f4f9 5.99%, ##e5e5e5 84.12%) !important;
   .main-container {
     height: 100vh !important;
     .l-side {
-      background-image: url('/images/login-cover.png') !important;
+      background-image: url(${coverImage}) !important;
       background-repeat: no-repeat;
       background-size: cover;
       .live-box {

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import { Row, Col, Spin, Image, Input, Button } from 'antd'
 
+import Logo1 from '../../assets/images/logo.png'
 import { FormItem } from '../FormItem'
 
 import ViewContainer from './container'
@@ -48,7 +49,7 @@ const View = () => (
                   xl={{ span: 6, offset: 9 }}
                   xxl={{ span: 6, offset: 9 }}
                 >
-                  <Image src="/images/logo.png" preview={false} />
+                  <Image src={Logo1} preview={false} />
                 </Col>
               </Row>
               <Row className="mt-4 mb-3">

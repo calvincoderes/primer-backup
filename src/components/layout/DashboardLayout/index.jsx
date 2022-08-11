@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { Layout, Row, Col, Image, Divider, Tooltip, Spin } from 'antd'
 import { LogoutOutlined } from '@ant-design/icons'
 
+import LogoWhite from '../../../assets/images/logo-white.png'
 import Menus from './Menus'
 import ViewContainer from './container'
 
@@ -117,7 +118,7 @@ const View = ({ children, ...rest }) => (
             <Sider breakpoint="lg" collapsedWidth="0">
               <Row>
                 <Col span={10} offset={8}>
-                  <Image src="/images/logo-white.png" height={64} preview={false} />
+                  <Image src={LogoWhite} height={64} preview={false} />
                 </Col>
               </Row>
               <Menus />
